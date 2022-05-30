@@ -36,7 +36,7 @@ nav p{
     color: #fff;
 }
 
-ul{
+nav ul{
     width: 100%;
     height: 40px;
     text-align: right;
@@ -123,7 +123,7 @@ section{
 }
 
 .about-p a{
-    color:mediumpurple
+    color:mediumpurple;
 }
 
 .rule{
@@ -178,7 +178,7 @@ section{
 
 .seccul{
     padding: 50px;
-    background-image: linear-gradient(#8436AE, #B757C3, #B757C3, #8436AE)
+    background-image: linear-gradient(#8436AE, #B757C3, #B757C3, #8436AE);
 }
 
 footer{
@@ -194,4 +194,35 @@ footer p{
     color: floralwhite;
     position: relative;
     top: 45%;
+}
+
+section h1{
+    font-size: 50px;
+    text-shadow: 1.4px 1.4px navy;
+}
+
+.dc{
+    background-color: bisque;
+}
+
+.sync, .dvc, .rmd{
+    text-align: justify;
+    background-color: coral;
+    width: 25%;
+    margin: 35px;
+    padding: 65px;
+    font-size: 26px;
+}
+
+div{
+    display: inline-block;
+    height: auto;
+}
+
+.sync a{
+    color: #fff;
+}
+
+.rmd a {
+    color: #fff;
 }
